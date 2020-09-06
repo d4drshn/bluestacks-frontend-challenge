@@ -1,0 +1,32 @@
+
+.campaign div {
+  padding-right: 5px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.campaignCountry
+{
+  font-style: italic;
+  color: #afacac;
+}
+.campaign {
+display: flex;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.campaign img {
+max-width: 100px;
+}
+table td{
+  min-width: 150px;
+}
+table .right{
+text-align: right;
+font-weight: bold;
+}
+.modal>div  .campaignName{
+  font-weight: bold
+
+}
+.button{
+  width: 100px;
+}

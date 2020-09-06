@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Auto Chess",
+      "region": "US",
+      "createdOn": 1599292500000,
+      "price": 399,
+      "csv": "/assets/campaignData/csvFile.csv",
+      "report": "/assets/campaignData/reportFile.pdf",
+      "image_url": "/assets/campaignData/autoChess/logo.png"
+    },
+    {
+      "id": 2,
+      "name": "Flow Free",
+      "region": "FR CA",
+      "createdOn": 1599292500000,
+      "price": 399,
+      "csv": "/assets/campaignData/csvFile.csv",
+      "report": "/assets/campaignData/reportFile.pdf",
+      "image_url": "/assets/campaignData/flowFree/logo.png"
+    },
+    {
+      "id": 3,
+      "name": "Free Fire",
+      "region": "US IND",
+      "createdOn": 1599292500000,
+      "price": 399,
+      "csv": "/assets/campaignData/csvFile.csv",
+      "report": "/assets/campaignData/reportFile.pdf",
+      "image_url": "/assets/campaignData/freeFire/logo.png"
+    },
+    {
+      "id": 4,
+      "name": "Mortal Kombat",
+      "region": "FR EU",
+      "createdOn": 1599292500000,
+      "price": 399,
+      "csv": "/assets/campaignData/csvFile.csv",
+      "report": "/assets/campaignData/reportFile.pdf",
+      "image_url": "/assets/campaignData/mortalKombat/logo.png"
+    },
+    {
+      "id": 5,
+      "name": "Need for Speed",
+      "region": "US IND FR",
+      "createdOn": 1599292500000,
+      "price": 399,
+      "csv": "/assets/campaignData/csvFile.csv",
+      "report": "/assets/campaignData/reportFile.pdf",
+      "image_url": "/assets/campaignData/nfs/logo.png"
+    },
+    {
+      "id": 6,
+      "name": "PUBG",
+      "region": "US FR EU CA",
+      "createdOn": 1599292500000,
+      "price": 399,
+      "csv": "/assets/campaignData/csvFile.csv",
+      "report": "/assets/campaignData/reportFile.pdf",
+      "image_url": "/assets/campaignData/pubg/logo.png"
+    },
+    {
+      "id": 7,
+      "name": "Shadow Fight 3",
+      "region": "US EU CN",
+      "createdOn": 1599292500000,
+      "price": 399,
+      "csv": "/assets/campaignData/csvFile.csv",
+      "report": "/assets/campaignData/reportFile.pdf",
+      "image_url": "/assets/campaignData/shadowFight/logo.png"
+    },
+    {
+      "id": 8,
+      "name": "Summoners War",
+      "region": "US JP",
+      "createdOn": 1599292500000,
+      "price": 399,
+      "csv": "/assets/campaignData/csvFile.csv",
+      "report": "/assets/campaignData/reportFile.pdf",
+      "image_url": "/assets/campaignData/summonersWar/logo.png"
+    }
+  ]
+}

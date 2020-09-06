@@ -1,0 +1,132 @@
+#tableContainer table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#tableContainer button,
+#tableContainer a {
+  color: rgb(119, 117, 117);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  cursor: pointer;
+}
+#tableContainer button:hover,
+#tableContainer a:hover {
+  text-decoration: underline;
+}
+#tableContainer i {
+  padding-right: 5px;
+}
+#tableContainer .fa-file-text {
+  color: rgb(27, 184, 27);
+}
+#tableContainer .fa-bar-chart {
+  color: rgb(192, 62, 62);
+}
+#tableContainer .fa-calendar {
+  color: rgb(39, 39, 182);
+}
+#tableContainer thead tr {
+  background-color: #ccc;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+#tableContainer td {
+  padding: 8px 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#tableContainer th {
+  padding: 12px 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(136, 135, 135);
+  min-width: 200px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#tableContainer .campaign {
+  display: flex;
+}
+#tableContainer .campaign div {
+  padding-right: 10px;
+  display: inline-grid;
+}
+#tableContainer .time div {
+  padding-right: 10px;
+  display: block;
+}
+#tableContainer .relativeTime,
+#tableContainer .campaignCountry {
+  font-style: italic;
+  color: #afacac;
+}
+#tableContainer img {
+  width: 50px;
+  height: 50px;
+}
+#tableContainer .actions div {
+  padding-right: 40px;
+  display: inline-grid;
+}
+/* #tableContainer .csv {
+  width: 25%;
+}
+#tableContainer .reports {
+  width: 25%;
+}
+#tableContainer .schedule {
+  width: 50%;
+} */
+@media screen and (max-width: 700px) {
+  #tableContainer table,
+  #tableContainer thead,
+  #tableContainer tbody,
+  #tableContainer th,
+  #tableContainer td,
+  #tableContainer tr {
+    display: block;
+  }
+
+  #tableContainer .viewDetails {
+    /* display: block; */
+    display: none;
+  }
+  #tableContainer .actions div {
+    /* display: block;  */
+    display: none;
+  }
+  #tableContainer .row-active .actions div,
+  #tableContainer .row-active .viewDetails {
+    display: block;
+  }
+  #tableContainer .time div {
+    display: inline-grid;
+  }
+  #tableContainer thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  #tableContainer th,
+  #tableContainer td {
+    padding: 5px 5px;
+  }
+  #tableContainer tr {
+    border: solid 1px #ccc;
+    border-radius: 10px;
+  }
+  #tableContainer td {
+    border: none;
+  }
+}

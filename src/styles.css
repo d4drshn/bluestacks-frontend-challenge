@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.root_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.root_title {
+  padding: 20px 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.simple-select {
+  padding: 0px 10px;
+  word-spacing: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}

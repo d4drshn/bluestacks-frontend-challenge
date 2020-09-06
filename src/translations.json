@@ -1,0 +1,53 @@
+{
+  "en": {
+    "common": {
+      "manageCampaigns": "Manage Campaigns",
+      "pastCampaigns": "Past Campaigns",
+      "liveCampaigns": "Live Campaigns",
+      "upcomingCampaigns": "Upcoming Campaigns",
+      "name": "Name",
+      "date": "Date",
+      "view": "View",
+      "actions": "Actions",
+      "viewPricing": "View Pricing",
+      "reports": "Reports",
+      "scheduleAgain": "Schedule Again",
+      "daysAgo": "days ago",
+      "daysAhead": "days ahead",
+      "today": "Today",
+      "week": "Week",
+      "month": "Month",
+      "year": "Year",
+      "close": "close",
+      "reschedule": "reschedule",
+      "pricing": "Pricing",
+      "language": "Language"
+    }
+  },
+  "de": {
+    "common": {
+      "campaign": "Kampagne",
+      "manageCampaigns": "Kampagnen verwalten",
+      "pastCampaigns": "Vergangene Kampagnen",
+      "liveCampaigns": "Aktive Kampagnen",
+      "upcomingCampaigns": "Kommende Kampagnen",
+      "name": "Name",
+      "date": "Datum",
+      "view": "Aussicht",
+      "actions": "Aktionen",
+      "viewPricing": "Preise Anzeigen",
+      "reports": "Berichte",
+      "scheduleAgain": "Wieder Planen",
+      "daysAgo": "vor tagen",
+      "daysAhead": "tage voraus",
+      "today": "heute",
+      "week": "Woche",
+      "month": "Monat",
+      "year": "Jahr",
+      "close": "schließen",
+      "reschedule": "neu planen",
+      "pricing": "Preis",
+      "language": "Sprache"
+    }
+  }
+}
